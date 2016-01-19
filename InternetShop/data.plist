@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Book</key>
+	<array>
+		<dict>
+			<key>price</key>
+			<integer>1000</integer>
+			<key>type</key>
+			<string>Developing</string>
+			<key>name</key>
+			<string>Thinking in Java</string>
+		</dict>
+		<dict>
+			<key>price</key>
+			<integer>1200</integer>
+			<key>type</key>
+			<string>Developing</string>
+			<key>name</key>
+			<string>iOS. Fast learning guide</string>
+		</dict>
+		<dict>
+			<key>price</key>
+			<integer>680</integer>
+			<key>type</key>
+			<string>Cooking</string>
+			<key>name</key>
+			<string>The cackes</string>
+		</dict>
+		<dict>
+			<key>price</key>
+			<integer>500</integer>
+			<key>type</key>
+			<string>Cooking</string>
+			<key>name</key>
+			<string>Light breakfast</string>
+		</dict>
+		<dict>
+			<key>price</key>
+			<integer>700</integer>
+			<key>type</key>
+			<string>Developing</string>
+			<key>name</key>
+			<string>Haskell. Simple about the complex</string>
+		</dict>
+	</array>
+	<key>Disk</key>
+	<array>
+		<dict>
+			<key>price</key>
+			<integer>300</integer>
+			<key>type</key>
+			<string>DVD</string>
+			<key>name</key>
+			<string>Silenthill</string>
+		</dict>
+		<dict>
+			<key>price</key>
+			<integer>1000</integer>
+			<key>type</key>
+			<string>DVD</string>
+			<key>name</key>
+			<string>Deadpool</string>
+		</dict>
+		<dict>
+			<key>price</key>
+			<integer>800</integer>
+			<key>type</key>
+			<string>DVD</string>
+			<key>name</key>
+			<string>Escape</string>
+		</dict>
+		<dict>
+			<key>price</key>
+			<integer>120</integer>
+			<key>type</key>
+			<string>CD</string>
+			<key>name</key>
+			<string>Chillout 2015</string>
+		</dict>
+		<dict>
+			<key>price</key>
+			<integer>90</integer>
+			<key>type</key>
+			<string>CD</string>
+			<key>name</key>
+			<string>Modern classic</string>
+		</dict>
+	</array>
+</dict>
+</plist>

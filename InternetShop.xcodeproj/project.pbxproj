@@ -1,0 +1,462 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8E0A1FA11C4CA96F0042F3DC /* ACHDataBaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E0A1FA01C4CA96F0042F3DC /* ACHDataBaseManager.m */; };
+		8E0A1FC01C4CBF0C0042F3DC /* ProductModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8E0A1FBE1C4CBF0C0042F3DC /* ProductModel.xcdatamodeld */; };
+		8E0A1FC61C4CBF640042F3DC /* ProductEntity+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E0A1FC31C4CBF640042F3DC /* ProductEntity+CoreDataProperties.m */; };
+		8E0A1FC71C4CBF640042F3DC /* ProductEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E0A1FC51C4CBF640042F3DC /* ProductEntity.m */; };
+		8E0A1FCD1C4E11900042F3DC /* ACHCartManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E0A1FCC1C4E11900042F3DC /* ACHCartManager.m */; };
+		8E3632491C4561CB0023D1EE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E3632481C4561CB0023D1EE /* main.m */; };
+		8E3632551C4561CB0023D1EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E3632531C4561CB0023D1EE /* Main.storyboard */; };
+		8E3632571C4561CB0023D1EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E3632561C4561CB0023D1EE /* Assets.xcassets */; };
+		8E36325A1C4561CB0023D1EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E3632581C4561CB0023D1EE /* LaunchScreen.storyboard */; };
+		8E3632631C45628F0023D1EE /* ACHShopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E3632621C45628F0023D1EE /* ACHShopViewController.m */; };
+		8E3632661C4562A50023D1EE /* ACHStorageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E3632651C4562A50023D1EE /* ACHStorageViewController.m */; };
+		8E3632691C4562EB0023D1EE /* ACHDetailedInformationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E3632681C4562EB0023D1EE /* ACHDetailedInformationViewController.m */; };
+		8E36326D1C456E6B0023D1EE /* ACHProductCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E36326C1C456E6B0023D1EE /* ACHProductCell.m */; };
+		8E3632711C4570590023D1EE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E3632701C4570590023D1EE /* AppDelegate.m */; };
+		8E3632991C4667AC0023D1EE /* ACHProduct.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E3632981C4667AC0023D1EE /* ACHProduct.m */; };
+		8E3632A71C46881E0023D1EE /* ACHProductManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E3632A61C46881E0023D1EE /* ACHProductManager.m */; };
+		8E3632AA1C46C7ED0023D1EE /* data.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8E3632A91C46C7ED0023D1EE /* data.plist */; };
+		8E3632B31C4BD74D0023D1EE /* ACHAddNewProductViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E3632B21C4BD74D0023D1EE /* ACHAddNewProductViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8E0A1F9F1C4CA96F0042F3DC /* ACHDataBaseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACHDataBaseManager.h; sourceTree = "<group>"; };
+		8E0A1FA01C4CA96F0042F3DC /* ACHDataBaseManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACHDataBaseManager.m; sourceTree = "<group>"; };
+		8E0A1FBF1C4CBF0C0042F3DC /* ProductModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ProductModel.xcdatamodel; sourceTree = "<group>"; };
+		8E0A1FC21C4CBF640042F3DC /* ProductEntity+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ProductEntity+CoreDataProperties.h"; sourceTree = "<group>"; };
+		8E0A1FC31C4CBF640042F3DC /* ProductEntity+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ProductEntity+CoreDataProperties.m"; sourceTree = "<group>"; };
+		8E0A1FC41C4CBF640042F3DC /* ProductEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductEntity.h; sourceTree = "<group>"; };
+		8E0A1FC51C4CBF640042F3DC /* ProductEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductEntity.m; sourceTree = "<group>"; };
+		8E0A1FCB1C4E11900042F3DC /* ACHCartManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACHCartManager.h; sourceTree = "<group>"; };
+		8E0A1FCC1C4E11900042F3DC /* ACHCartManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACHCartManager.m; sourceTree = "<group>"; };
+		8E3632441C4561CB0023D1EE /* InternetShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InternetShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E3632481C4561CB0023D1EE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8E3632541C4561CB0023D1EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8E3632561C4561CB0023D1EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8E3632591C4561CB0023D1EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8E36325B1C4561CB0023D1EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E3632611C45628F0023D1EE /* ACHShopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACHShopViewController.h; sourceTree = "<group>"; };
+		8E3632621C45628F0023D1EE /* ACHShopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACHShopViewController.m; sourceTree = "<group>"; };
+		8E3632641C4562A50023D1EE /* ACHStorageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACHStorageViewController.h; sourceTree = "<group>"; };
+		8E3632651C4562A50023D1EE /* ACHStorageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACHStorageViewController.m; sourceTree = "<group>"; };
+		8E3632671C4562EB0023D1EE /* ACHDetailedInformationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACHDetailedInformationViewController.h; sourceTree = "<group>"; };
+		8E3632681C4562EB0023D1EE /* ACHDetailedInformationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACHDetailedInformationViewController.m; sourceTree = "<group>"; };
+		8E36326B1C456E6B0023D1EE /* ACHProductCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACHProductCell.h; sourceTree = "<group>"; };
+		8E36326C1C456E6B0023D1EE /* ACHProductCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACHProductCell.m; sourceTree = "<group>"; };
+		8E36326F1C4570590023D1EE /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8E3632701C4570590023D1EE /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8E3632971C4667AC0023D1EE /* ACHProduct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACHProduct.h; sourceTree = "<group>"; };
+		8E3632981C4667AC0023D1EE /* ACHProduct.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACHProduct.m; sourceTree = "<group>"; };
+		8E3632A41C466C970023D1EE /* ACHProductInfoDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACHProductInfoDataSource.h; sourceTree = "<group>"; };
+		8E3632A51C46881E0023D1EE /* ACHProductManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACHProductManager.h; sourceTree = "<group>"; };
+		8E3632A61C46881E0023D1EE /* ACHProductManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACHProductManager.m; sourceTree = "<group>"; };
+		8E3632A91C46C7ED0023D1EE /* data.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = data.plist; sourceTree = "<group>"; };
+		8E3632B11C4BD74D0023D1EE /* ACHAddNewProductViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACHAddNewProductViewController.h; sourceTree = "<group>"; };
+		8E3632B21C4BD74D0023D1EE /* ACHAddNewProductViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACHAddNewProductViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8E3632411C4561CB0023D1EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8E0A1FA81C4CAC0F0042F3DC /* Entites */ = {
+			isa = PBXGroup;
+			children = (
+				8E0A1FC21C4CBF640042F3DC /* ProductEntity+CoreDataProperties.h */,
+				8E0A1FC31C4CBF640042F3DC /* ProductEntity+CoreDataProperties.m */,
+				8E0A1FC41C4CBF640042F3DC /* ProductEntity.h */,
+				8E0A1FC51C4CBF640042F3DC /* ProductEntity.m */,
+			);
+			name = Entites;
+			sourceTree = "<group>";
+		};
+		8E0A1FC81C4CEA070042F3DC /* Data sources */ = {
+			isa = PBXGroup;
+			children = (
+				8E3632A91C46C7ED0023D1EE /* data.plist */,
+				8E0A1FBE1C4CBF0C0042F3DC /* ProductModel.xcdatamodeld */,
+			);
+			name = "Data sources";
+			sourceTree = "<group>";
+		};
+		8E0A1FC91C4DFB650042F3DC /* Systems */ = {
+			isa = PBXGroup;
+			children = (
+				8E36326F1C4570590023D1EE /* AppDelegate.h */,
+				8E3632701C4570590023D1EE /* AppDelegate.m */,
+				8E3632561C4561CB0023D1EE /* Assets.xcassets */,
+				8E36325B1C4561CB0023D1EE /* Info.plist */,
+			);
+			name = Systems;
+			sourceTree = "<group>";
+		};
+		8E0A1FCA1C4DFB9F0042F3DC /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				8E3632531C4561CB0023D1EE /* Main.storyboard */,
+				8E3632581C4561CB0023D1EE /* LaunchScreen.storyboard */,
+			);
+			name = StoryBoards;
+			sourceTree = "<group>";
+		};
+		8E36323B1C4561CB0023D1EE = {
+			isa = PBXGroup;
+			children = (
+				8E3632461C4561CB0023D1EE /* InternetShop */,
+				8E3632451C4561CB0023D1EE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8E3632451C4561CB0023D1EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E3632441C4561CB0023D1EE /* InternetShop.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E3632461C4561CB0023D1EE /* InternetShop */ = {
+			isa = PBXGroup;
+			children = (
+				8E36326E1C456E720023D1EE /* Cells */,
+				8E36326A1C4562F70023D1EE /* Controllers */,
+				8E0A1FC81C4CEA070042F3DC /* Data sources */,
+				8E3632A81C4688220023D1EE /* Data managers */,
+				8E36329A1C4667B10023D1EE /* Model */,
+				8E36329F1C46691E0023D1EE /* Protocols */,
+				8E0A1FC91C4DFB650042F3DC /* Systems */,
+				8E0A1FCA1C4DFB9F0042F3DC /* StoryBoards */,
+				8E3632471C4561CB0023D1EE /* Supporting Files */,
+			);
+			path = InternetShop;
+			sourceTree = "<group>";
+		};
+		8E3632471C4561CB0023D1EE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8E3632481C4561CB0023D1EE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8E36326A1C4562F70023D1EE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8E3632611C45628F0023D1EE /* ACHShopViewController.h */,
+				8E3632621C45628F0023D1EE /* ACHShopViewController.m */,
+				8E3632641C4562A50023D1EE /* ACHStorageViewController.h */,
+				8E3632651C4562A50023D1EE /* ACHStorageViewController.m */,
+				8E3632671C4562EB0023D1EE /* ACHDetailedInformationViewController.h */,
+				8E3632681C4562EB0023D1EE /* ACHDetailedInformationViewController.m */,
+				8E3632B11C4BD74D0023D1EE /* ACHAddNewProductViewController.h */,
+				8E3632B21C4BD74D0023D1EE /* ACHAddNewProductViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		8E36326E1C456E720023D1EE /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				8E36326B1C456E6B0023D1EE /* ACHProductCell.h */,
+				8E36326C1C456E6B0023D1EE /* ACHProductCell.m */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		8E36329A1C4667B10023D1EE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8E3632971C4667AC0023D1EE /* ACHProduct.h */,
+				8E3632981C4667AC0023D1EE /* ACHProduct.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		8E36329F1C46691E0023D1EE /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				8E3632A41C466C970023D1EE /* ACHProductInfoDataSource.h */,
+			);
+			name = Protocols;
+			sourceTree = "<group>";
+		};
+		8E3632A81C4688220023D1EE /* Data managers */ = {
+			isa = PBXGroup;
+			children = (
+				8E0A1F9F1C4CA96F0042F3DC /* ACHDataBaseManager.h */,
+				8E0A1FA01C4CA96F0042F3DC /* ACHDataBaseManager.m */,
+				8E0A1FCB1C4E11900042F3DC /* ACHCartManager.h */,
+				8E0A1FCC1C4E11900042F3DC /* ACHCartManager.m */,
+				8E3632A51C46881E0023D1EE /* ACHProductManager.h */,
+				8E3632A61C46881E0023D1EE /* ACHProductManager.m */,
+				8E0A1FA81C4CAC0F0042F3DC /* Entites */,
+			);
+			name = "Data managers";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8E3632431C4561CB0023D1EE /* InternetShop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E36325E1C4561CB0023D1EE /* Build configuration list for PBXNativeTarget "InternetShop" */;
+			buildPhases = (
+				8E3632401C4561CB0023D1EE /* Sources */,
+				8E3632411C4561CB0023D1EE /* Frameworks */,
+				8E3632421C4561CB0023D1EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InternetShop;
+			productName = InternetShop;
+			productReference = 8E3632441C4561CB0023D1EE /* InternetShop.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8E36323C1C4561CB0023D1EE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ACH;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Andrew;
+				TargetAttributes = {
+					8E3632431C4561CB0023D1EE = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 8E36323F1C4561CB0023D1EE /* Build configuration list for PBXProject "InternetShop" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8E36323B1C4561CB0023D1EE;
+			productRefGroup = 8E3632451C4561CB0023D1EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E3632431C4561CB0023D1EE /* InternetShop */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8E3632421C4561CB0023D1EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E36325A1C4561CB0023D1EE /* LaunchScreen.storyboard in Resources */,
+				8E3632571C4561CB0023D1EE /* Assets.xcassets in Resources */,
+				8E3632AA1C46C7ED0023D1EE /* data.plist in Resources */,
+				8E3632551C4561CB0023D1EE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8E3632401C4561CB0023D1EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E3632A71C46881E0023D1EE /* ACHProductManager.m in Sources */,
+				8E3632661C4562A50023D1EE /* ACHStorageViewController.m in Sources */,
+				8E0A1FC01C4CBF0C0042F3DC /* ProductModel.xcdatamodeld in Sources */,
+				8E3632991C4667AC0023D1EE /* ACHProduct.m in Sources */,
+				8E3632631C45628F0023D1EE /* ACHShopViewController.m in Sources */,
+				8E0A1FC61C4CBF640042F3DC /* ProductEntity+CoreDataProperties.m in Sources */,
+				8E3632711C4570590023D1EE /* AppDelegate.m in Sources */,
+				8E3632B31C4BD74D0023D1EE /* ACHAddNewProductViewController.m in Sources */,
+				8E3632691C4562EB0023D1EE /* ACHDetailedInformationViewController.m in Sources */,
+				8E36326D1C456E6B0023D1EE /* ACHProductCell.m in Sources */,
+				8E0A1FCD1C4E11900042F3DC /* ACHCartManager.m in Sources */,
+				8E0A1FC71C4CBF640042F3DC /* ProductEntity.m in Sources */,
+				8E3632491C4561CB0023D1EE /* main.m in Sources */,
+				8E0A1FA11C4CA96F0042F3DC /* ACHDataBaseManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8E3632531C4561CB0023D1EE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E3632541C4561CB0023D1EE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8E3632581C4561CB0023D1EE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E3632591C4561CB0023D1EE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8E36325C1C4561CB0023D1EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8E36325D1C4561CB0023D1EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8E36325F1C4561CB0023D1EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = InternetShop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ACH.InternetShop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8E3632601C4561CB0023D1EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = InternetShop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ACH.InternetShop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8E36323F1C4561CB0023D1EE /* Build configuration list for PBXProject "InternetShop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E36325C1C4561CB0023D1EE /* Debug */,
+				8E36325D1C4561CB0023D1EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E36325E1C4561CB0023D1EE /* Build configuration list for PBXNativeTarget "InternetShop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E36325F1C4561CB0023D1EE /* Debug */,
+				8E3632601C4561CB0023D1EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8E0A1FBE1C4CBF0C0042F3DC /* ProductModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8E0A1FBF1C4CBF0C0042F3DC /* ProductModel.xcdatamodel */,
+			);
+			currentVersion = 8E0A1FBF1C4CBF0C0042F3DC /* ProductModel.xcdatamodel */;
+			path = ProductModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8E36323C1C4561CB0023D1EE /* Project object */;
+}
