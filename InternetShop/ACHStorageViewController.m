@@ -23,28 +23,21 @@
 
 @implementation ACHStorageViewController
 
-#pragma mark - Initialization
+#pragma mark - View cycle
 
-- (instancetype)initWithCoder:(NSCoder *)coder{
-    self = [super initWithCoder:coder];
-    if (self) {
-        [[NSNotificationCenter defaultCenter] addObserver:self
-                                                 selector:@selector(productsDidChanged:)
-                                                     name:ProductManagerProductsDidChangeNotification
-                                                   object:nil];
-    }
-    return self;
-}
-
-- (void) viewWillAppear:(BOOL)animated {
+- (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
+    [[NSNotificationCenter defaultCenter] addObserver:self
+                                             selector:@selector(productsDidChanged:)
+                                                 name:ProductManagerProductsDidChangeNotification
+                                               object:nil];
     [self updateTableContent];
 }
 
-- (void)dealloc {
+- (void)viewDidDisappear:(BOOL)animated {
+    [super viewDidDisappear:animated];
     [[NSNotificationCenter defaultCenter] removeObserver:self];
 }
-
 #pragma mark - Accessors
 
 - (ACHProductManager *)manager {
@@ -79,12 +72,11 @@
 
 #pragma mark - Actions
 
-
 - (IBAction)clearAllAction:(UIButton *)sender {
     if ([self.items count] != 0) {
         [self.manager clearAllData];
     } else {
-        [self alert:@"No data!"];
+        [self alertWithMessage:@"No data!"];
     }
 }
 
@@ -100,7 +92,7 @@
 - (void)productsDidChanged:(NSNotification *)notification {
     [self updateTableContent];
     if ([self.items count] != 0 ) {
-        [self alert:@"New products loaded!"];
+        [self alertWithMessage:@"New products loaded!"];
     }
     
 }
@@ -118,7 +110,7 @@
     return [self.items objectAtIndex:indexPath.row];
 }
 
-- (void)alert:(NSString *)message {
+- (void)alertWithMessage:(NSString *)message {
     
     UIAlertController* alert = [UIAlertController alertControllerWithTitle:@"Information"
                                                                    message:message

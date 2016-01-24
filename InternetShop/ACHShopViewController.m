@@ -26,26 +26,22 @@
 
 @implementation ACHShopViewController
 
-#pragma mark - Initialization
-
-- (instancetype)initWithCoder:(NSCoder *)coder {
-    self = [super initWithCoder:coder];
-    if (self) {
-        [[NSNotificationCenter defaultCenter] addObserver:self
-                                                 selector:@selector(productsDidChanged:)
-                                                     name:ProductManagerProductsDidChangeNotification
-                                                   object:nil];
-    }
-    return self;
-}
+#pragma mark - View cycle
 
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
+    
+    [[NSNotificationCenter defaultCenter] addObserver:self
+                                             selector:@selector(productsDidChanged:)
+                                                 name:ProductManagerProductsDidChangeNotification
+                                               object:nil];
+    
     [self updateTableContent];
     self.priceLabel.text = [self cartPrice];
 }
 
-- (void)dealloc {
+- (void)viewDidDisappear:(BOOL)animated {
+    [super viewDidDisappear:animated];
     [[NSNotificationCenter defaultCenter] removeObserver:self];
 }
 
@@ -129,11 +125,11 @@
 - (void)productsDidChanged:(NSNotification *)notification {
     [self updateTableContent];
     if ([self.items count] != 0 ) {
-        [self alert:@"New products loaded!"];
+        [self alertWithMessage:@"New products loaded!"];
     }
 }
 
-- (void)alert:(NSString *)message {
+- (void)alertWithMessage:(NSString *)message {
     
     UIAlertController* alert = [UIAlertController alertControllerWithTitle:@"Information"
                                                                    message:message
